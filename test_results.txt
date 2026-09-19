@@ -1,0 +1,26 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.15, pytest-9.1.1, pluggy-1.6.0 -- C:\code\cp-ai110-module1show-gameglitchinvestigator-starter\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\code\cp-ai110-module1show-gameglitchinvestigator-starter
+plugins: anyio-4.15.1
+collecting ... collected 17 items
+
+tests/test_game_logic.py::test_winning_guess PASSED                      [  5%]
+tests/test_game_logic.py::test_guess_too_high PASSED                     [ 11%]
+tests/test_game_logic.py::test_guess_too_low PASSED                      [ 17%]
+tests/test_game_logic.py::test_too_high_message_says_go_lower PASSED     [ 23%]
+tests/test_game_logic.py::test_too_low_message_says_go_higher PASSED     [ 29%]
+tests/test_game_logic.py::test_single_digit_guess_compared_numerically PASSED [ 35%]
+tests/test_game_logic.py::test_three_digit_guess_compared_numerically PASSED [ 41%]
+tests/test_game_logic.py::test_wrong_guess_never_adds_points PASSED      [ 47%]
+tests/test_game_logic.py::test_first_try_win_scores_100 PASSED           [ 52%]
+tests/test_game_logic.py::test_win_score_has_floor_of_10 PASSED          [ 58%]
+tests/test_game_logic.py::test_hard_range_is_wider_than_normal PASSED    [ 64%]
+tests/test_game_logic.py::test_parse_valid_number_with_whitespace PASSED [ 70%]
+tests/test_game_logic.py::test_parse_empty_input PASSED                  [ 76%]
+tests/test_game_logic.py::test_parse_non_number PASSED                   [ 82%]
+tests/test_game_logic.py::test_parse_decimal_rejected PASSED             [ 88%]
+tests/test_game_logic.py::test_parse_out_of_range_rejected PASSED        [ 94%]
+tests/test_game_logic.py::test_parse_boundaries_accepted PASSED          [100%]
+
+============================= 17 passed in 0.12s ==============================
